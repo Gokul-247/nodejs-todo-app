@@ -1,15 +1,15 @@
-version: 1.0
+version: 0.0
 os: linux
 files:
-  - source: nodejs-todo-1.0.0.tgz
+  - source: /
     destination: /home/ec2-user/nodejs-todo-app/
 hooks:
   AfterInstall:
     - location: scripts/install_dependencies.sh
       timeout: 300
-      runas: ec2-user
+      runas: root
   ApplicationStart:
     - location: scripts/start_application.sh
       timeout: 300
-      runas: ec2-user
+      runas: root
 
