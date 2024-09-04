@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: nodejs-todo-1.0.0.tgz
+  - source: /
     destination: /home/ec2-user/nodejs-todo-app/
 hooks:
   AfterInstall:
