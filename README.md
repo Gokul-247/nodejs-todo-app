@@ -17,7 +17,7 @@
 <p> How to run the app locally: </p>
 
 <ol>
-<li> Run <code> npm install </code> to install all needed dependencies </li>
+<li> Run <code> npm install </code> to install all needed dependencies. </li>
 
 <li> Then start the server using <code> node index.js </code> </li>
 
