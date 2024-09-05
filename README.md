@@ -14,7 +14,7 @@
 
 <br>
 
-<p> How to run the app locally: </p>
+<p> How to run the app locally : </p>
 
 <ol>
 <li> Run <code> npm install </code> to install all needed dependencies </li>
